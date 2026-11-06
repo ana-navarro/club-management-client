@@ -26,3 +26,9 @@ dist-ssr
 # Tests and Storybook
 coverage
 storybook-static
+
+# Environment files: only .env.example is versioned
+.env
+.env.*
+!.env.example
+.secrets.env
