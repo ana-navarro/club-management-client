@@ -19,9 +19,11 @@ module.exports = {
   roots: ['<rootDir>/src'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testPathIgnorePatterns: ['/node_modules/', ...wipPatterns],
+  // react-router and its dependencies only ship as ES modules.
+  transformIgnorePatterns: ['/node_modules/(?!(react-router|@remix-run/route-pattern|cookie-es)/)'],
   transform: {
-    '^.+\\.tsx?$': [
-      '@swc/jest',
+    '^.+\\.(tsx?|m?js)$': [
+      '<rootDir>/jest.transform.cjs',
       {
         jsc: {
           parser: { syntax: 'typescript', tsx: true },
