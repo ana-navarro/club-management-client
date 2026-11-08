@@ -1,0 +1,108 @@
+{
+  "app": {
+    "title": "Club Management"
+  },
+  "preferences": {
+    "language": "Language: English",
+    "languageLabel": "Use English",
+    "darkTheme": "Dark theme"
+  },
+  "login": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "forgotPassword": "Forgot my password",
+    "invalidCredentials": "Invalid email or password. After 3 wrong attempts, we send an email to the account.",
+    "unavailable": "We could not sign you in right now. Try again in a moment.",
+    "sessionExpired": "Your session has expired. Sign in again.",
+    "signUp": "Create account",
+    "noAccount": "Don't have an account yet?",
+    "emailNotVerified": "Confirm your email before signing in. We can send you a new confirmation link."
+  },
+  "forgotPassword": {
+    "title": "Forgot my password",
+    "description": "Enter your email to receive a reset link.",
+    "submit": "Send link",
+    "sent": "If the email is registered, we will send a link to create a new password.",
+    "unavailable": "We could not send it right now. Try again in a moment.",
+    "backToLogin": "Back to sign in"
+  },
+  "resetPassword": {
+    "title": "Create a new password",
+    "password": "New password",
+    "confirmation": "Confirm new password",
+    "submit": "Save password",
+    "mismatch": "The passwords do not match.",
+    "weak": "The password must have at least 8 characters.",
+    "invalidLink": "This link is invalid, has expired or was already used.",
+    "requestAnother": "Request another link",
+    "unavailable": "We could not save it right now. Try again in a moment.",
+    "success": "Password changed. Sign in with the new password."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "email": "Enter a valid email.",
+    "tooLong": "This text is too long."
+  },
+  "home": {
+    "greeting": "Hello, {{name}}"
+  },
+  "signUp": {
+    "title": "Create account",
+    "name": "Name",
+    "password": "Password",
+    "confirmation": "Confirm password",
+    "submit": "Create account",
+    "haveAccount": "Already have an account? Sign in",
+    "tooMany": "Too many sign-ups from this network. Try again later.",
+    "unavailable": "We could not create the account right now. Try again in a moment."
+  },
+  "checkEmail": {
+    "title": "Check your email",
+    "description": "We sent a confirmation link to {{email}}. Follow it to finish the sign-up. It is valid for 24 hours."
+  },
+  "resendVerification": {
+    "description": "Enter your email to receive a new confirmation link.",
+    "submit": "Resend link",
+    "sent": "If the account still needs confirmation, we sent a new link.",
+    "unavailable": "We could not send it right now. Try again in a moment."
+  },
+  "verifyEmail": {
+    "title": "Email confirmation",
+    "loading": "Confirming your email…",
+    "success": "Email confirmed. You can now sign in.",
+    "goToLogin": "Go to sign in",
+    "invalidLink": "This link is invalid, has expired or was already used. Ask for a new one below.",
+    "unavailable": "We could not confirm it right now. Try again in a moment."
+  },
+  "social": {
+    "google": "Continue with Google",
+    "facebook": "Continue with Facebook",
+    "or": "or",
+    "checkEmail": "We sent a link to the email of your Facebook account. Follow it to finish signing in. It is valid for 24 hours.",
+    "errors": {
+      "cancelled": "Sign-in was cancelled. You can try again or use another option.",
+      "email_required": "The provider did not share a verified email. Use another option or your email and password.",
+      "invalid_credentials": "Invalid email or password. After 3 wrong attempts, we send an email to the account.",
+      "provider_unavailable": "We could not sign you in with the provider right now. If you are in another app's browser, open the page in your phone's browser or use your email and password.",
+      "invalid_state": "The sign-in expired or was opened in another browser. Try again."
+    }
+  },
+  "socialCallback": {
+    "loading": "Finishing sign-in…"
+  },
+  "confirmSocialLink": {
+    "title": "Confirm sign-in with Facebook",
+    "loading": "Loading the request…",
+    "question": "Link the Facebook profile \"{{profileName}}\" to the account {{email}}?",
+    "warning": "Confirm only if you asked to sign in with this profile. If you do not recognize it, choose \"This was not me\".",
+    "confirm": "Confirm",
+    "decline": "This was not me",
+    "confirmed": "Facebook linked to your account. Now just continue with Facebook.",
+    "declined": "Request declined. Nothing was linked to your account.",
+    "invalidLink": "This link is invalid, has expired or was already used. To get another one, sign in with Facebook again.",
+    "unavailable": "We could not finish it right now. Try again in a moment.",
+    "goToLogin": "Go to sign in"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "app": {
+    "title": "Club Management"
+  },
+  "preferences": {
+    "language": "Idioma: português",
+    "languageLabel": "Usar inglês",
+    "darkTheme": "Tema escuro"
+  },
+  "login": {
+    "title": "Entrar",
+    "email": "Email",
+    "password": "Senha",
+    "submit": "Entrar",
+    "forgotPassword": "Esqueci a senha",
+    "invalidCredentials": "Email ou senha inválidos. Depois de 3 tentativas erradas, enviamos um email para a conta.",
+    "unavailable": "Não foi possível entrar agora. Tente novamente em instantes.",
+    "sessionExpired": "Sua sessão expirou. Entre novamente.",
+    "signUp": "Criar conta",
+    "noAccount": "Ainda não tem conta?",
+    "emailNotVerified": "Confirme seu email antes de entrar. Podemos enviar um novo link de confirmação."
+  },
+  "forgotPassword": {
+    "title": "Esqueci a senha",
+    "description": "Informe seu email para receber um link de redefinição.",
+    "submit": "Enviar link",
+    "sent": "Se o email estiver cadastrado, enviaremos um link para criar uma nova senha.",
+    "unavailable": "Não foi possível enviar agora. Tente novamente em instantes.",
+    "backToLogin": "Voltar para o login"
+  },
+  "resetPassword": {
+    "title": "Criar nova senha",
+    "password": "Nova senha",
+    "confirmation": "Confirmar nova senha",
+    "submit": "Salvar senha",
+    "mismatch": "As senhas não são iguais.",
+    "weak": "A senha precisa ter pelo menos 8 caracteres.",
+    "invalidLink": "Este link é inválido, expirou ou já foi usado.",
+    "requestAnother": "Pedir outro link",
+    "unavailable": "Não foi possível salvar agora. Tente novamente em instantes.",
+    "success": "Senha alterada. Entre com a nova senha."
+  },
+  "validation": {
+    "required": "Campo obrigatório.",
+    "email": "Informe um email válido.",
+    "tooLong": "O texto é longo demais."
+  },
+  "home": {
+    "greeting": "Olá, {{name}}"
+  },
+  "signUp": {
+    "title": "Criar conta",
+    "name": "Nome",
+    "password": "Senha",
+    "confirmation": "Confirmar senha",
+    "submit": "Criar conta",
+    "haveAccount": "Já tem conta? Entrar",
+    "tooMany": "Muitos cadastros a partir desta rede. Tente novamente mais tarde.",
+    "unavailable": "Não foi possível criar a conta agora. Tente novamente em instantes."
+  },
+  "checkEmail": {
+    "title": "Confira seu email",
+    "description": "Enviamos um link de confirmação para {{email}}. Siga o link para concluir o cadastro. Ele vale por 24 horas."
+  },
+  "resendVerification": {
+    "description": "Informe seu email para receber um novo link de confirmação.",
+    "submit": "Reenviar link",
+    "sent": "Se a conta ainda precisar de confirmação, enviamos um novo link.",
+    "unavailable": "Não foi possível enviar agora. Tente novamente em instantes."
+  },
+  "verifyEmail": {
+    "title": "Confirmação de email",
+    "loading": "Confirmando seu email…",
+    "success": "Email confirmado. Agora você já pode entrar.",
+    "goToLogin": "Ir para o login",
+    "invalidLink": "Este link é inválido, expirou ou já foi usado. Peça um novo abaixo.",
+    "unavailable": "Não foi possível confirmar agora. Tente novamente em instantes."
+  },
+  "social": {
+    "google": "Continuar com Google",
+    "facebook": "Continuar com Facebook",
+    "or": "ou",
+    "checkEmail": "Enviamos um link para o email da sua conta do Facebook. Siga o link para concluir a entrada. Ele vale por 24 horas.",
+    "errors": {
+      "cancelled": "A entrada foi cancelada. Você pode tentar de novo ou usar outro meio.",
+      "email_required": "O provedor não informou um email verificado. Entre com outro meio ou com email e senha.",
+      "invalid_credentials": "Email ou senha inválidos. Depois de 3 tentativas erradas, enviamos um email para a conta.",
+      "provider_unavailable": "Não foi possível entrar com o provedor agora. Se estiver no navegador de outro app, abra a página no navegador do celular ou entre com email e senha.",
+      "invalid_state": "A entrada expirou ou foi aberta em outro navegador. Tente de novo."
+    }
+  },
+  "socialCallback": {
+    "loading": "Concluindo a entrada…"
+  },
+  "confirmSocialLink": {
+    "title": "Confirmar entrada com o Facebook",
+    "loading": "Carregando o pedido…",
+    "question": "Ligar o perfil do Facebook \"{{profileName}}\" à conta {{email}}?",
+    "warning": "Confirme só se você pediu para entrar com esse perfil. Se não reconhece o perfil, escolha \"Não fui eu\".",
+    "confirm": "Confirmar",
+    "decline": "Não fui eu",
+    "confirmed": "Facebook ligado à sua conta. Agora é só continuar com o Facebook.",
+    "declined": "Pedido recusado. Nada foi ligado à sua conta.",
+    "invalidLink": "Este link é inválido, expirou ou já foi usado. Para receber outro, entre com o Facebook de novo.",
+    "unavailable": "Não foi possível concluir agora. Tente novamente em instantes.",
+    "goToLogin": "Ir para o login"
+  }
+}
